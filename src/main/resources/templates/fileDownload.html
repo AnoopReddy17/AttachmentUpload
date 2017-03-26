@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+
+<h1>Spring Boot - Multiple file upload example - AJAX</h1>
+
+<form method="GET">
+    fileName: <input type="text" name="fileName" id="fileName"/><br></br>
+    <input type="submit" value="Submit" id="btnSubmitToDownload"/>
+</form>
+
+<h1>File upload status</h1>
+<pre>
+    <span id="result"></span>
+</pre>
+
+<script type="text/javascript"
+        src="webjars/jquery/2.2.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/fileUpload.js"></script>
+
+</body>
+</html>
